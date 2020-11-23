@@ -1,0 +1,17 @@
+
+
+#menuBar {
+	background-color: rgba(0, 255, 0, 0.5);
+
+}
+
+
+.menuItems {
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+
+#menuItems {
+	
+}

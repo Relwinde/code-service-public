@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Acceuil - Service public de l'administration Burkinabè</title>
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+</head>
+<body>
+
+<header>
+    <table align="right">
+        <tr>
+            <th>
+               <p align="right">Unité - Progrès - Justice</p> 
+            </th>
+            <th>
+                <img src="images\flag.png" align="right"> 
+            </th>
+        </tr>
+    </table>
+
+
+
+    <table>
+        <tr>
+            <th><img src="images\arm.png"></th>
+            <th align="left"> <font size="10px"> Service Public </font> <br> <span> <font size="3px"> Service public de l'administration public </font> </span></th>
+        </tr>
+    </table>
+
+
+    <div>
+        <nav>
+            <table id="menuBar" width="100%">
+                <tr>
+                    <th>
+                            <table id="menuItems" align="center" cellspacing="15px" cellpadding="10px">
+                                <tr>
+                                    <th><a class="menuItems" href="">ACCEUIL&nbsp</a></th>
+                                    <th><a class="menuItems" href="">ENTREPRISES</a></th>
+                                    <th><a class="menuItems" href="">PARTICULIERS</a></th>
+                                    <th><a class="menuItems" href="">DOCUMENTS</a></th>
+                                    <th><a class="menuItems" href="">E-SERVICES</a></th>
+                                    <th><a class="menuItems" href="">ANNUAIRE NUMERIQUE</a></th>
+                                    <th><a class="menuItems" href="">FAQ</a></th>
+                                </tr>
+                            </table>
+                    </th>
+                </tr>
+            </table>
+        </nav>
+    </div>
+</header>
+
+<form action="get">
+
+    <table cellpadding="10px" align="center">
+
+        <thead align="center">
+            <th>
+                INSCRIPTION
+            </th>
+        </thead>
+
+        <tr>
+        <td>Nom:</td> 
+        <td><input type="text" name="nom" placeholder="Votre nom"></td>
+        </tr>
+
+        <tr>
+             <td> Prénom:</td>
+             <td> <input type="text" name="prenom" placeholder="Votre prénom"></td>
+        </tr>
+
+        <tr>
+             <td> Adresse Electronique:</td>
+             <td> <input type="email" name="mail" placeholder="Votre adresse e-mail"></td>
+        </tr>
+
+        <tr>
+             <td> Date de naissance:</td> 
+             <td><input type="date" name="date"></td>
+        </tr>
+
+        <tr>
+            <td>Lieu de naissance:</td>
+            <td><input type="text" name="lieuNaissance" placeholder="Votre lieu de naissance"></td>
+        </tr>
+
+        <tr>
+            <td>Sexe:</td>
+            <td><input type="radio" name="sexe" value="Femme"> Femme </td>
+            <td><input type="radio" name="sexe" value="Homme"> Homme </td>
+        </tr>
+
+        <tr>
+            <td>Option(s) de formation:</td>
+            <td><input type="checkbox" name="formation" value="DevWeb"> Developpement Web </td>
+            <td><input type="checkbox" name="formation" value="DevMobile"> Developpement mobile </td>
+            <td><input type="checkbox" name="formation" value="RevDigit"> Référencement Digital </td>
+        </tr>
+
+        <tr>
+            <td>Lieu de formation:</td>
+            <td>
+                <select name="trainingSite">
+                    <option value="UJKZ">Université Joseph Ki Zerbo</option>
+                    <option value="UTS">Université Thomas Sankara</option>
+                    <option value="UNZ">Université Norbert Zongo</option>
+                    <option value="UNB">Université Nazi Boni</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Mot de passe:</td>
+            <td><input type="password" name="pass" placeholder="Mot de passe"></td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" name="ok" value="Envoyer"></td>
+            <td><input type="reset" name="reset" value="Effacer"></td>
+        </tr>
+
+    </table>
+       
+
+
+</form>
+
+
+</body>
+</html>
